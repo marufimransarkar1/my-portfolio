@@ -17,6 +17,7 @@
     font-weight: 700;
     line-height: normal;
     text-decoration: none;
+    cursor: pointer;
 }
 .section-header{
     color: var(--Dark-01, #181818);
@@ -259,3 +260,23 @@ font-family: Open Sans;
     text-decoration: none;
     color: var(--Dark-03, #757575);
 }
+#toast {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+  }
+  
+  .visible {
+    display: block;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
